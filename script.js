@@ -200,7 +200,7 @@ function updateStatus(id, newStatus) {
 }
 
 
-// Event Delegation
+
 
 
 document.querySelector("main").addEventListener("click", function (event) {

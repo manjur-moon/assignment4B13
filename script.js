@@ -105,7 +105,7 @@ const tabButtons = document.querySelectorAll(".tab-btn");
 // Utility Functions
 
 
-// Count based on status
+
 function getInterviewJobs() {
   return jobs.filter(job => job.status === "Interview");
 }
@@ -114,7 +114,7 @@ function getRejectedJobs() {
   return jobs.filter(job => job.status === "Rejected");
 }
 
-// Update Dashboard
+
 function updateCounts() {
   const interviewJobs = getInterviewJobs();
   const rejectedJobs = getRejectedJobs();
@@ -129,7 +129,7 @@ function updateCounts() {
 }
 
 
-// Render Section
+
 
 
 function renderJobs() {

@@ -65,7 +65,7 @@ let jobs = [
   },
   {
     id: 7,
-    companyName: "Bright Digital",
+    companyName: "BRIGHT DIGITAL",
     position: "Full Stack Developer",
     location: "Sydney, Australia",
     type: "Full-time",
@@ -75,7 +75,7 @@ let jobs = [
   },
   {
     id: 8,
-    companyName: "secure tech",
+    companyName: "SECURE TECH",
     position: "Cybersecurity Analyst",
     location: "Austin, USA",
     type: "Full-time",

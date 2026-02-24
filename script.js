@@ -15,7 +15,7 @@ let jobs = [
   },
   {
     id: 2,
-    companyName: "WebFlow Agency",
+    companyName: "WebFlow AGENCY",
     position: "UI Designer",
     location: "New York, USA",
     type: "Contract",
@@ -25,7 +25,7 @@ let jobs = [
   },
   {
     id: 3,
-    companyName: "CloudNet Systems",
+    companyName: "CLOUDNET SYSTEMS",
     position: "Backend Developer",
     location: "Berlin, Germany",
     type: "Full-time",
@@ -35,7 +35,7 @@ let jobs = [
   },
   {
     id: 4,
-    companyName: "NextGen Labs",
+    companyName: "NEXTGEN LABS",
     position: "React Developer",
     location: "Remote",
     type: "Part-time",
@@ -45,7 +45,7 @@ let jobs = [
   },
   {
     id: 5,
-    companyName: "TechNova",
+    companyName: "TECHNOVA",
     position: "Software Engineer",
     location: "Toronto, Canada",
     type: "Full-time",
@@ -55,7 +55,7 @@ let jobs = [
   },
   {
     id: 6,
-    companyName: "Innova IT",
+    companyName: "INNOVA IT",
     position: "DevOps Engineer",
     location: "London, UK",
     type: "Full-time",

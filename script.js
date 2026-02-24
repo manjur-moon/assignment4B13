@@ -75,7 +75,7 @@ let jobs = [
   },
   {
     id: 8,
-    companyName: "SecureTech",
+    companyName: "secure tech",
     position: "Cybersecurity Analyst",
     location: "Austin, USA",
     type: "Full-time",

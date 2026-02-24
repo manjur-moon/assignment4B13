@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Tracker</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Dashboard -->
+    <header class="w-[90%] max-w-6xl mx-auto py-8 space-y-6">
+      <h1 class="text-3xl font-bold text-blue-700">Job Application Tracker</h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-lg border">
+          <p class="text-sm text-gray-500">Total</p>
+          <p id="totalCount" class="text-2xl font-semibold">0</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg border">
+          <p class="text-sm text-gray-500">Interview</p>
+          <p id="interviewCount" class="text-2xl font-semibold text-green-600">
+            0
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg border">
+          <p class="text-sm text-gray-500">Rejected</p>
+          <p id="rejectedCount" class="text-2xl font-semibold text-red-500">
+            0
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <hr class="my-5 w-[90%] max-w-6xl mx-auto" />
+    <main class="w-[90%] max-w-6xl mx-auto pb-16">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-semibold">Available Jobs</h2>
+        <p class="text-sm text-gray-500"><span id="jobCount">0</span> jobs</p>
+      </div>
+
+      <!-- Tabs -->
+      <div class="flex gap-3 mb-6">
+        <button
+          id="all-tab"
+          class="tab-btn bg-blue-600 text-white px-4 py-2 rounded"
+        >
+          All
+        </button>
+        <button
+          id="interview-tab"
+          class="tab-btn bg-gray-200 px-4 py-2 rounded"
+        >
+          Interview
+        </button>
+        <button id="rejected-tab" class="tab-btn bg-gray-200 px-4 py-2 rounded">
+          Rejected
+        </button>
+      </div>
+
+      <!-- Cards -->
+      <section id="jobContainer" class="space-y-6"></section>
+
+      <!-- Empty State --> 
+      <section id="emptyState" class="hidden text-center py-20"> 
+        <img
+          src="./B13-A4-PH-Job-Tracker/jobs.png"
+          class="w-16 mx-auto mb-4"
+          alt="No jobs"
+        />
+        <h3 class="font-semibold text-lg">No jobs available</h3>
+        <p class="text-sm text-gray-500">
+          Check back soon for new opportunities
+        </p>
+      </section>
+    </main>
+<!-- add javascript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
